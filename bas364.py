@@ -46,7 +46,7 @@ if option == 1:
 elif option == 2:
     enc_word = input("\nType something to decode: ")
     decrypt_word = base64.b64decode(enc_word)
-    print("\n =====<( The Encrypted message )>=====\n\n",decrypt_word)
+    print("\n =====<( The Decrypted message )>=====\n\n",decrypt_word)
 
 # Force Encoding
 elif option == 3:
@@ -62,7 +62,7 @@ elif option == 4:
         while True:
          enc_word = input("\nType something to decode: ")
          decrypt_word = base64.b64decode(enc_word)
-         print("\n =====<( The Encrypted message )>=====\n\n",decrypt_word)
+         print("\n =====<( The Decrypted message )>=====\n\n",decrypt_word)
 
 # Errors Handling!
 else:
