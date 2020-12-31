@@ -1,4 +1,5 @@
-# Bas3_64
+# Preview
+   ![bas364](bas364.gif)
 
 How to run:
   # python3 bas364.py
